@@ -1,14 +1,19 @@
+// import firebase from "firebase/app";
+// import "firebase/firestore";
+// import "firebase/auth";
+
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
 
-const firebaseConfig = {
+
+  const firebaseConfig = {
     apiKey: "AIzaSyCFUsxFK94UAWpnA-N41bNt_L4gKjr-ZO8",
     authDomain: "vue-blod-system.firebaseapp.com",
     projectId: "vue-blod-system",
     storageBucket: "vue-blod-system.appspot.com",
     messagingSenderId: "846977650902",
-    appId: "1:846977650902:web:b9acdfde4255d2036e7977"
+    appId: "1:846977650902:web:727b387b14c1c1b76e7977"
   };
 
   firebase.initializeApp(firebaseConfig);
@@ -18,3 +23,6 @@ const firebaseConfig = {
   let timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
   export {db,auth, timestamp}
+
+
+ 
