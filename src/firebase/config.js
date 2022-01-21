@@ -7,14 +7,14 @@ import "firebase/firestore";
 import "firebase/auth";
 
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyCFUsxFK94UAWpnA-N41bNt_L4gKjr-ZO8",
-    authDomain: "vue-blod-system.firebaseapp.com",
-    projectId: "vue-blod-system",
-    storageBucket: "vue-blod-system.appspot.com",
-    messagingSenderId: "846977650902",
-    appId: "1:846977650902:web:727b387b14c1c1b76e7977"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyCZBGI3bMH6uvlZRBdMeWzyBMG7zavPhL4",
+  authDomain: "myproject-36cf5.firebaseapp.com",
+  projectId: "myproject-36cf5",
+  storageBucket: "myproject-36cf5.appspot.com",
+  messagingSenderId: "546417778364",
+  appId: "1:546417778364:web:8abcab79351fc0cdc3bab9"
+};
 
   firebase.initializeApp(firebaseConfig);
 
